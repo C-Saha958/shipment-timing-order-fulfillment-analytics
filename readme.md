@@ -103,11 +103,11 @@ The monthly analysis covers 37 months. The Schedule-Miss Rate generally fluctuat
 | Standard Class | 4 days | 37,632 | 14,995 | **39.85%** | 1.50 days |
 
 
-Schedule-Miss Rate by Shipping Mode
+#### Schedule-Miss Rate by Shipping Mode
 ![Schedule-Miss Rate by Shipping Mode](assets/schedule_miss_rate_by_shipping_mode.png.png)
 
 
-Average Overrun Days by Shipping Mode
+#### Average Overrun Days by Shipping Mode
 ![Average Overrun Days by Shipping Mode](assets/average_overrun_days_by_shipping_mode.png)
 
 **Interpretation:** First Class has the highest miss rate, but not the longest overruns. Second Class is the strongest candidate for investigation because its miss rate is high and its average overrun is the largest. Standard Class has the lowest rate but the greatest absolute number of missed orders.
@@ -126,7 +126,7 @@ The exported matrix contains all **92 combinations** of 23 regions and four ship
 | Standard Class | 33%–44% | Canada (33%) | Central Africa (44%) | All regional rates are below the overall 57.31% benchmark. |
 
 
-Regional Schedule-Miss Rate by Shipping Mode
+#### Regional Schedule-Miss Rate by Shipping Mode
 ![Regional Schedule-Miss Rate by Shipping Mode](assets/regional_shipping_mode_heatmap.png)
 
 **Interpretation:** First Class and Second Class show consistently high miss rates across regions. Same Day varies substantially by region, while Standard Class is comparatively lower in every region. Geography alone does not explain the pattern; shipping mode is an important segment to consider alongside region.
@@ -162,7 +162,7 @@ The following department–category combinations have the highest schedule-miss 
 | Outdoors | Electronics | 1,122 |
 
 
-Top Product Segments by Schedule-Miss Orders
+#### Top Product Segments by Schedule-Miss Orders
 ![Top Product Segments by Schedule-Miss Orders](assets/top_product_segments_by_schedule_miss_orders.png)
 
 Apparel–Cleats and Apparel–Men's Footwear have the highest counts among the displayed segments. These counts may reflect higher eligible-order volumes, higher schedule-miss rates, or both. The count-based ranking alone cannot distinguish those possibilities. Product-category order counts are non-additive because one order can contain products from multiple categories.
@@ -178,8 +178,8 @@ Apparel–Cleats and Apparel–Men's Footwear have the highest counts among the 
 | **Total** | **36,048** | **100.00%** |
 
 
-Distribution of Schedule-Overrun Severity
-![Distribution of Schedule-Overrun Severity](assets/distribution-of-schedule-overrun-severity.png)
+#### Distribution of Schedule-Overrun Severity
+![Distribution of Schedule-Overrun Severity](assets/Distribution-of-Schedule-Overrun-Severity.png)
 
 **Interpretation:** 86.38% of schedule-miss orders exceeded schedule by one or two days; the remaining 13.62% exceeded it by three or four days. The larger one- and two-day group represents the bulk of missed orders, while the smaller three- and four-day group represents the more severe overrun tail.
 
