@@ -29,31 +29,31 @@ The report contains seven pages. The following five pages contain the core analy
 
 Overall KPIs, the 37-month schedule-miss trend, performance by shipping mode, and the distribution of overrun severity.
 
-![Shipment Performance](assets\03_shipment_performance.png)
+![Shipment Performance](assets/03_shipment_performance.png)
 
 ### 2. Cross-Segment Analysis
 
 A 23-region by four-shipping-mode matrix comparing schedule-miss rates. This view shows where performance differences persist across geographic segments.
 
-![Cross-Segment Analysis](assets\05_cross-segment_analysis.png)
+![Cross-Segment Analysis](assets/05_cross-segment_analysis.png)
 
 ### 3. Shipping Severity Analysis
 
 Compares the overrun-day mix and average overrun duration by shipping mode, distinguishing the frequency of missed schedules from the severity of overruns.
 
-![Shipping Severity Analysis](assets\06_Shipping_Severity_Analysis.png)
+![Shipping Severity Analysis](assets/06_Shipping_Severity_Analysis.png)
 
 ### 4. Regional & Product Category Analysis
 
 Uses order-volume versus schedule-miss-rate comparisons to distinguish high-volume segments from segments with relatively high miss rates.
 
-![Regional & Product Category Analysis](assets\07_Regional_&_Product_Category_Analysis.png)
+![Regional & Product Category Analysis](assets/07_Regional_&_Product_Category_Analysis.png)
 
 ### 5. Operational & Commercial Analysis
 
 Examines order status, the product segments and regions with the highest schedule-miss counts, and recorded order-item values across shipping-performance groups.
 
-![Operational & Commercial Analysis](assets\04_Operational_&_Commercial_Analysis.png)
+![Operational & Commercial Analysis](assets/04_Operational_&_Commercial_Analysis.png)
 
 ## Dataset
 
@@ -104,11 +104,11 @@ The monthly analysis covers 37 months. The Schedule-Miss Rate generally fluctuat
 
 
 Schedule-Miss Rate by Shipping Mode
-![Schedule-Miss Rate by Shipping Mode](assets\schedule_miss_rate_by_shipping_mode.png.png)
+![Schedule-Miss Rate by Shipping Mode](assets/schedule_miss_rate_by_shipping_mode.png.png)
 
 
 Average Overrun Days by Shipping Mode
-![Average Overrun Days by Shipping Mode](assets\average_overrun_days_by_shipping_mode.png)
+![Average Overrun Days by Shipping Mode](assets/average_overrun_days_by_shipping_mode.png)
 
 **Interpretation:** First Class has the highest miss rate, but not the longest overruns. Second Class is the strongest candidate for investigation because its miss rate is high and its average overrun is the largest. Standard Class has the lowest rate but the greatest absolute number of missed orders.
 
@@ -127,7 +127,7 @@ The exported matrix contains all **92 combinations** of 23 regions and four ship
 
 
 Regional Schedule-Miss Rate by Shipping Mode
-![Regional Schedule-Miss Rate by Shipping Mode](assets\regional_shipping_mode_heatmap.png)
+![Regional Schedule-Miss Rate by Shipping Mode](assets/regional_shipping_mode_heatmap.png)
 
 **Interpretation:** First Class and Second Class show consistently high miss rates across regions. Same Day varies substantially by region, while Standard Class is comparatively lower in every region. Geography alone does not explain the pattern; shipping mode is an important segment to consider alongside region.
 
@@ -163,7 +163,7 @@ The following department–category combinations have the highest schedule-miss 
 
 
 Top Product Segments by Schedule-Miss Orders
-![Top Product Segments by Schedule-Miss Orders](assets\top_product_segments_by_schedule_miss_orders.png)
+![Top Product Segments by Schedule-Miss Orders](assets/top_product_segments_by_schedule_miss_orders.png)
 
 Apparel–Cleats and Apparel–Men's Footwear have the highest counts among the displayed segments. These counts may reflect higher eligible-order volumes, higher schedule-miss rates, or both. The count-based ranking alone cannot distinguish those possibilities. Product-category order counts are non-additive because one order can contain products from multiple categories.
 
@@ -179,7 +179,7 @@ Apparel–Cleats and Apparel–Men's Footwear have the highest counts among the 
 
 
 Distribution of Schedule-Overrun Severity
-![Distribution of Schedule-Overrun Severity](assets\distribution-of-schedule-overrun-severity.png)
+![Distribution of Schedule-Overrun Severity](assets/distribution-of-schedule-overrun-severity.png)
 
 **Interpretation:** 86.38% of schedule-miss orders exceeded schedule by one or two days; the remaining 13.62% exceeded it by three or four days. The larger one- and two-day group represents the bulk of missed orders, while the smaller three- and four-day group represents the more severe overrun tail.
 
