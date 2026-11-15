@@ -1,0 +1,12 @@
+# Keep downloaded raw source data local
+/data/ 
+/data/raw/
+/data/agg_tables/
+# Temporary and backup files
+*.tmp
+*.bak
+
+# Power BI temporary lock files
+~$*.pbix
+
+/dashboard/rejected_dashboard/
